@@ -13,7 +13,7 @@
     "four five six add"
     "seven eight nine subtract"
     "zero multiply divide equal"
-    "clear clear clear clear";
+    "deleteInput deleteInput deleteInput deleteInput";
 }
  
 .input {
@@ -108,8 +108,8 @@ button{
     grid-area: equal;
     font-size: 30px;
 }
-.clear{
-    grid-area: clear;
+.deleteInput{
+    grid-area: deleteInput;
     font-size:30px;
 }
 

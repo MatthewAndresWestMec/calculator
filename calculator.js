@@ -21,11 +21,13 @@ function multiply()
 {
     document.getElementById("input").value +="*";
 }
-//input clear + solve
+//input clear
 function deleteInput()
 {
     document.getElementById("input").value = "";
 }
+
+//input solve
 function equal()
 {
     document.getElementById("input").value = eval(document.getElementById("input").value)
